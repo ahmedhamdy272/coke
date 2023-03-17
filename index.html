@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed's Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button onclick="viewLogInTab()" style="width:auto;" class="button">Login</button>
+
+<div id="id01" class="s">
+
+    <form class=" modal-content animate" action="/index.html" method="get">
+    <div class="imgcontainer">
+        <span onclick="closeLogInTab()" class="close" title="Close Modal">&times;</span>
+        <img src="images/img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit">Login</button>
+        <label>
+        <input type="checkbox" name="remember"> Remember me
+        </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="closeLogInTab()" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+    </form>
+</div>
+
+<span style="font-size:30px;cursor:pointer" class="left" onclick="openNav()">&#9776; open</span>
+
+<div id="mySidenav" class="sidenav">
+    <a class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#About">About</a>
+    <a href="#skills">Services</a>
+    <a href="#contact">Contact</a>
+</div>
+<div class="top-container">
+    <div class="title-text">
+    <h1>I'm Ahmed.</h1>
+    <h2>a <span class="pro">deve</span>loper.</h2>
+    </div>
+</div>
+
+<div id="About" class="middle-container">
+    <div class="profile">
+    <img src="images/1676206112138.jpg" alt="angela-profile-img" width="200" style="border-radius: 50px;">
+    <h2>Hello..!</h2>
+    <p class="intro">I am a FrontEnd developer and Head of web development at GDSC & Faculty of Commerce
+        Aswan and I ❤️ Learning and Coding </p>
+    </div>
+    <hr>
+    <div id="skills" class="skills">
+    <h2>My Skills.</h2>
+    <div class="skill-row">
+        <img class="Hey-img" src="images/1_plants.gif" alt="Hey-img">
+
+        <h3>Design & Development</h3>
+        <p>I started learning to code when I was 18 years old because I wanted to make my own Websites . Over time, I
+        have gained a wealth of experience designing and developing Websites.</p>
+
+    </div>
+    <div class="skill-row">
+        <img class="codeing-img" src="images/download.jpeg" alt="codeing-img">
+
+        <h3> Learing Language Trips</h3>
+        <p>But my best skill is actually in learning coding. And I take my sources from GDSC & Zero web school
+            <a id="a" href="https://www.youtube.com/@ElzeroWebSchool">ElZero</a> /<a id="a" href="https://mohamedabdelwahaboka.github.io/Front-end-Work-shop/">GDSC</a> </p>
+
+    </div>
+    </div>
+    <hr>
+    <div id="contact" class="contact-me">
+    <h2>Get In Touch</h2>
+    <h3>If you love Learing as much as I do.</h3>
+    <p class="contact-message">Love learing as much as I do? Let's talk about how awesome it is ! We can code
+        while we take a break!</p>
+    <a class="btn" href="mailto:ilove@hotwings.com">CONTACT ME</a>
+    </div>
+</div>
+
+
+<div class="bottom-container">
+    <a class="footer-link" target="_blank" href="https://www.linkedin.com/in/ahmed-hamdy-35a96b263/">LinkedIn</a>
+    <a class="footer-link" target="_blank" href="https://twitter.com/AhmedHa87740668">Twitter</a>
+    <a class="footer-link" target="_blank" href="https://www.facebook.com/ahmedhamdyelbrens">FaceBook</a>
+    <p class="copyright">© 2023 Ahmed Hamdy @ GDSC.</p>
+</div>
+<script src="sidenav.js"></script>
+<script src="login.js"></script>
+</body>
+</html>
